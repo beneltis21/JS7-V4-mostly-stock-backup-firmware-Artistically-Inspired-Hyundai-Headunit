@@ -1,5 +1,3 @@
-# JS7-V4-mostly-stock-backup-firmware-Artistically-Inspired-Hyundai-Headunit
-Mostly-stock JS7 V4 MT6580 Android 8.1 head-unit reference with sanitized recovery/logo images, hardware documentation and an experimental Hyundai IX35 skin. Independent, unofficial and not complete factory firmware. Board and software/firmware info.[README.md](https://github.com/user-attachments/files/31609747/README.md)
 # (artistic approximation) Hyundai headunit
 
 ## JS7 V4 Mostly-Stock Platform Reference
@@ -11,6 +9,7 @@ This repository contains partition-level reference artifacts and platform-identi
 This is an independent technical archive. It is not an official release from the hardware manufacturer, seller, RegLink or Hyundai.
 
 The repository also preserves a separate **Hyundai IX35 V4 skin**. That package is modified software and is not part of the mostly-stock backup.
+
 
 *The physical JS7 V4 Hyundai ix35-format head unit used for partition acquisition, recovery analysis and controlled build testing.*
 
