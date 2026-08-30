@@ -20,11 +20,23 @@ The target is a Chinese-market Hyundai ix35-format Android head unit based on th
 Two related but separate items are preserved:
 
 1. **Mostly-stock V4 reference:** acquired `recovery` and original `logo` partition images, Android property identifiers, partition-layout evidence and board-level component notes.
-2. **Hyundai IX35 skin V1.2:** an exact-build-gated Android system customisation containing a launcher/dashboard, boot assets and selected identity/configuration changes. It is modified software with partial physical validation.
+2. **Hyundai IX35 skin V1.2:** an exact-build-gated Android system customisation containing That should be described carefully. A legitimate domain does not mean the connection was malicious—it may have been telemetry, licensing, updates, mapping, account services, or advertising. Also, mainland-hosted services can receive connections from overseas; the Great Firewall does not automatically prevent outbound client traffic from reaching them.
+
+Technically safe README wording:
+
+> **Observed network behaviour:** During initial testing, the supplied software initiated outbound traffic to a legitimate remote domain. The destination was subsequently blocked at the local network. The payload and initiating package were not conclusively identified, so this archive does not classify the connection as malicious. The unit was configured for the mainland market and included Baidu, Huawei and other region-dependent applications with limited functionality outside the mainland.
+
+Avoid publishing authentication tokens, device IDs, MAC addresses, or full raw network captures.
+
+
+It did call home originally, but I blocked it, although it connected to a legitimate domain. As the product was made for mainland China, I doubt the traffic would penetrate the firewall. It originally used Baidu and Huawei services and came pre-installed with some suspicious apps that had limited functionality outside mainland China.
+a launcher/dashboard, boot assets and selected identity/configuration changes. It is modified software with partial physical validation.
 
 The earlier International V1 `system`/`custom` experiment is explicitly excluded. This repository is intended for platform identification, recovery research and rollback reference; it is not a universal ROM or complete flash-tool package.
 
+
 ## Acquisition scope and limitations
+
 
 - Source device: operational physical V4 unit.
 - Acquisition state: close to the supplied software configuration, with subsequent diagnostic and recovery activity.
