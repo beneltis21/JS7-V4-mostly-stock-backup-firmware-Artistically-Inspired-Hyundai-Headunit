@@ -13,6 +13,8 @@ The repository also preserves a separate **Hyundai IX35 V4 skin**. That package 
 
 *The physical JS7 V4 Hyundai ix35-format head unit used for partition acquisition, recovery analysis and controlled build testing.*
 
+Bootloader unlock code is 8991, factory setting code is 888888, ADP/ Dev/ Debug settings was hidden and required file system exploration and a laucher app to find but is not password protected.
+
 ## Build summary
 
 The target is a Chinese-market Hyundai ix35-format Android head unit based on the MediaTek `k80_bsp` board-support package. The acquired runtime reports Android 8.1.0/API 27, ARMv7 32-bit execution and RegLink vehicle integration on a 1024×600 display. Recovery validation, privileged ADB diagnostics and subsequent Hyundai customisation prevent this acquisition from being classified as an immutable factory baseline; the technically accurate description is **mostly-stock platform reference**.
