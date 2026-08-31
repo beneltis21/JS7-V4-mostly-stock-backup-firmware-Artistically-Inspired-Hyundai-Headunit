@@ -22,11 +22,8 @@ Two related but separate items are preserved:
 1. **Mostly-stock V4 reference:** acquired `recovery` and original `logo` partition images, Android property identifiers, partition-layout evidence and board-level component notes.
 2. **Hyundai IX35 skin V1.2:** an exact-build-gated Android system customisation containing That should be described carefully. A legitimate domain does not mean the connection was malicious—it may have been telemetry, licensing, updates, mapping, account services, or advertising. Also, mainland-hosted services can receive connections from overseas; the Great Firewall does not automatically prevent outbound client traffic from reaching them.
 
-Technically safe README wording:
-
 > **Observed network behaviour:** During initial testing, the supplied software initiated outbound traffic to a legitimate remote domain. The destination was subsequently blocked at the local network. The payload and initiating package were not conclusively identified, so this archive does not classify the connection as malicious. The unit was configured for the mainland market and included Baidu, Huawei and other region-dependent applications with limited functionality outside the mainland.
 
-Avoid publishing authentication tokens, device IDs, MAC addresses, or full raw network captures.
 
 
 It did call home originally, but I blocked it, although it connected to a legitimate domain. As the product was made for mainland China, I doubt the traffic would penetrate the firewall. It originally used Baidu and Huawei services and came pre-installed with some suspicious apps that had limited functionality outside mainland China.
@@ -100,19 +97,6 @@ The unsanitised ADB acquisition contains device-unique and local-network identif
 
 ## Unavailable or excluded partitions
 
-This archive does not currently contain a verified complete set of factory partitions. In particular, it does not provide a confirmed original set of:
-
-- `preloader`, `lk` or `lk2`
-- `boot`
-- `system`
-- `vendor`
-- `custom`
-- `nvram` or `nvdata`
-- `protect1` or `protect2`
-- `userdata`
-- complete MCU firmware and vehicle-specific configuration
-
-The earlier `SystemUpdate_JS7_REGLINK_2026_INTERNATIONAL_V1` files are experimental international-build material and are not part of this mostly-stock archive.
 
 ## Compatibility constraints
 
@@ -152,21 +136,8 @@ The separate [`hyundai-ix35-skin`](hyundai-ix35-skin/) folder contains the guard
 
 The skin is labelled **experimental / partially hardware-validated**. Read its warning and status notes before use.
 
-## Related projects and technical references
-
-The following independent projects cover adjacent MediaTek, Android-image or Chinese-head-unit work. They are listed for technical context and community recognition. They are **not dependencies**, and no code or firmware from them is represented as part of this archive unless explicitly stated elsewhere
-
-
 ## Provenance and licensing
 
 This archive does not assert that the vendor partition images, bundled applications, boot media or vehicle marks are open-source. No open-source licence is granted for third-party binary content merely by its presence in this repository. The materials are preserved as an independent technical, interoperability and recovery reference; downstream publishers must determine whether their distribution is permitted in their jurisdiction.
 
 Hyundai names and marks belong to their respective owner. This project is not affiliated with or endorsed by Hyundai, RegLink, MediaTek, the hardware manufacturer or the original seller. It is may own dreamlike interpretation lol
-
-## Privacy and sanitisation
-
-- The raw ADB dump is not included.
-- Unit serial numbers, MAC addresses, personal Wi-Fi names and captured device IP addresses are not published.
-- The real unit photographs have had metadata removed before publication; a support-number label was cropped from the board image.
-- Seller-advertisement screenshots are excluded from the evidence gallery.
-- The public skin is a separately hashed sanitised derivative that has no owner-specific default ADB target.
