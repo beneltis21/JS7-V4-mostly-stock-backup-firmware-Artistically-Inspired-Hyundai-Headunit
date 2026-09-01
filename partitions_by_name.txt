@@ -1,0 +1,30 @@
+total 0
+drwxr-xr-x 2 root root 580 2020-11-11 08:00 .
+drwxr-xr-x 4 root root 660 2020-11-11 08:00 ..
+lrwxrwxrwx 1 root root  20 2020-11-11 08:00 boot -> /dev/block/mmcblk0p8
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 cache -> /dev/block/mmcblk0p23
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 custom -> /dev/block/mmcblk0p13
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 expdb -> /dev/block/mmcblk0p14
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 flashinfo -> /dev/block/mmcblk0p25
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 frp -> /dev/block/mmcblk0p16
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 keystore -> /dev/block/mmcblk0p21
+lrwxrwxrwx 1 root root  20 2020-11-11 08:00 lk -> /dev/block/mmcblk0p6
+lrwxrwxrwx 1 root root  20 2020-11-11 08:00 lk2 -> /dev/block/mmcblk0p7
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 logo -> /dev/block/mmcblk0p11
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 metadata -> /dev/block/mmcblk0p18
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 nvdata -> /dev/block/mmcblk0p17
+lrwxrwxrwx 1 root root  20 2020-11-11 08:00 nvram -> /dev/block/mmcblk0p2
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 odmdtbo -> /dev/block/mmcblk0p12
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 oemkeystore -> /dev/block/mmcblk0p19
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 para -> /dev/block/mmcblk0p10
+lrwxrwxrwx 1 root root  23 2020-11-11 08:00 preloader_a -> /dev/block/mmcblk0boot0
+lrwxrwxrwx 1 root root  23 2020-11-11 08:00 preloader_b -> /dev/block/mmcblk0boot1
+lrwxrwxrwx 1 root root  20 2020-11-11 08:00 proinfo -> /dev/block/mmcblk0p1
+lrwxrwxrwx 1 root root  20 2020-11-11 08:00 protect1 -> /dev/block/mmcblk0p3
+lrwxrwxrwx 1 root root  20 2020-11-11 08:00 protect2 -> /dev/block/mmcblk0p4
+lrwxrwxrwx 1 root root  20 2020-11-11 08:00 recovery -> /dev/block/mmcblk0p9
+lrwxrwxrwx 1 root root  20 2020-11-11 08:00 seccfg -> /dev/block/mmcblk0p5
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 secro -> /dev/block/mmcblk0p20
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 system -> /dev/block/mmcblk0p22
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 userdata -> /dev/block/mmcblk0p24
+lrwxrwxrwx 1 root root  21 2020-11-11 08:00 vendor -> /dev/block/mmcblk0p15

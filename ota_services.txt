@@ -1,0 +1,45 @@
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{94c8300 u0 com.reglink.apps.ota/.BootstrapService}
+    intent={act=com.reglink.action.ota_service pkg=com.reglink.apps.ota}
+    packageName=com.reglink.apps.ota
+    processName=com.reglink.apps.ota
+    baseDir=/system/app/reglinkota/reglinkota.apk
+    dataDir=/data/user/0/com.reglink.apps.ota
+    app=ProcessRecord{1d0148 1094:com.reglink.apps.ota/1000}
+    createTime=-11m50s64ms startingBgTimeout=--
+    lastActivity=-11m49s938ms restartTime=-11m49s938ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{11a04f9 u0 com.reglink.apps.ota/.local.LocalOtaService}
+    intent={cmp=com.reglink.apps.ota/.local.LocalOtaService}
+    packageName=com.reglink.apps.ota
+    processName=com.reglink.apps.ota
+    baseDir=/system/app/reglinkota/reglinkota.apk
+    dataDir=/data/user/0/com.reglink.apps.ota
+    app=ProcessRecord{1d0148 1094:com.reglink.apps.ota/1000}
+    createTime=-11m49s745ms startingBgTimeout=--
+    lastActivity=-11m49s745ms restartTime=-11m49s745ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{7a587ec u0 com.reglink.apps.ota/.app_ota.AppOtaService}
+    intent={cmp=com.reglink.apps.ota/.app_ota.AppOtaService}
+    packageName=com.reglink.apps.ota
+    processName=com.reglink.apps.ota
+    baseDir=/system/app/reglinkota/reglinkota.apk
+    dataDir=/data/user/0/com.reglink.apps.ota
+    app=ProcessRecord{1d0148 1094:com.reglink.apps.ota/1000}
+    createTime=-11m49s714ms startingBgTimeout=--
+    lastActivity=-11m49s714ms restartTime=-11m49s714ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{72e2c3e u0 com.reglink.apps.ota/.sys_ota.OtaService}
+    intent={cmp=com.reglink.apps.ota/.sys_ota.OtaService}
+    packageName=com.reglink.apps.ota
+    processName=com.reglink.apps.ota
+    baseDir=/system/app/reglinkota/reglinkota.apk
+    dataDir=/data/user/0/com.reglink.apps.ota
+    app=ProcessRecord{1d0148 1094:com.reglink.apps.ota/1000}
+    createTime=-11m49s737ms startingBgTimeout=--
+    lastActivity=-11m49s737ms restartTime=-11m49s737ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1

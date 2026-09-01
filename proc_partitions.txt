@@ -30,5 +30,3 @@ major minor  #blocks  name
  179       96       4096 mmcblk0rpmb
  179       64       4096 mmcblk0boot1
  179       32       4096 mmcblk0boot0
-   8       16    7816704 sdb
-   8       17    7815168 sdb1

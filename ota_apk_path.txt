@@ -1,0 +1,1 @@
+package:/system/app/reglinkota/reglinkota.apk
