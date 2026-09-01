@@ -36,6 +36,8 @@ The earlier International V1 `system`/`custom` experiment is explicitly excluded
 
 ## Acquisition scope and limitations
 
+It has UART and ADP
+Once adp is active it defaults to a static ip.
 
 - Source device: operational physical V4 unit.
 - Acquisition state: close to the supplied software configuration, with subsequent diagnostic and recovery activity.
