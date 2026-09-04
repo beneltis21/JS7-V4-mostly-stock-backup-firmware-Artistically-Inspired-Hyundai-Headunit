@@ -1,4 +1,7 @@
+og Chinese firmware code is in releases
+
 # (artistic approximation) Hyundai headunit
+
 
 ## JS7 V4 Mostly-Stock Platform Reference
 
